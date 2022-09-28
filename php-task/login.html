@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <title></title>
+</head>
+<body>
+    <form action="login.php" method="get">
+        <!--<form name="login_form">-->
+        <section>
+            <div class="form-group">
+                <input type="text" name="user_id" placeholder="ユーザーID">
+                <label class="form-label">ユーザーID</label>
+            </div>  
+            <div class="form-group">      
+                <input type="password" name="password" placeholder="パスワード">
+                <label class="form-label">パスワード</label>
+                <input type="hidden" name="start" value="0">
+            </div>
+            <input type="submit" name="submitBtn" value="ログイン">
+        <!--</form>-->
+        </section>
+    </form>
+</body>
+</html>
